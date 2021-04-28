@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+}
+
+h1,h2,h3,h4,h5,h6,{
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+/*----------------------
+header Start
+----------------------*/
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url("../Photos/Photo/Projects/pexels-pixabay-163125.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border: 3px solid yellowgreen;
+    border-radius: 50%;
+    transition: 2s;
+}
+
+.profile-pic:hover{
+    transform: rotate(360deg);
+}
+
+.brand-name{
+    color: orange;
+    font-family: 'Noto Serif', serif;
+    transition: 0.3s;
+}
+
+
+.brand-name:hover{
+    color: pink;
+    
+    
+}
+
+
+.banner-contents h1{
+    color: whitesmoke;
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.banner-contents p{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.fa-youtube{
+    color: red;
+    padding: 5px;
+    
+}
+
+.fa-robot{
+    color: orange;
+    padding: 5px;
+}
+
+
+/*----------------------
+header End
+----------------------*/
