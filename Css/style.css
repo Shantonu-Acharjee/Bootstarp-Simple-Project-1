@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5,h6{
 header Start
 ----------------------*/
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url("../Photos/Photo/Projects/pexels-pixabay-163125.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url("../Photos/pexels-pixabay-163125.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
