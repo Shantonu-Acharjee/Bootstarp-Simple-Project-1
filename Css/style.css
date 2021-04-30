@@ -254,6 +254,20 @@ About Me Start
     transition: 0.4s;
 }
 
+.achieve-desc-slider{
+    width: 100%;
+    border: 1px solid #ff02c0;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+
+
+.achieve-desc-slider:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
 
 .achieve-desc:hover{
     transform: scale(1.1);
