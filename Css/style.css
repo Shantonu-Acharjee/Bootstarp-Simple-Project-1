@@ -147,7 +147,8 @@ features End
 /*----------------------
 Slider Start
 ----------------------*/
-.carousel-item{
+
+.carousel-inner-IMAGE{
     max-height: 550px;
     
     
@@ -254,17 +255,23 @@ About Me Start
     transition: 0.4s;
 }
 
-.achieve-desc-slider{
-    width: 100%;
+.slide-price{
+    
     border: 1px solid #ff02c0;
     border-radius: 20px;
-    padding: 10px 5px;
     margin: 20px 0;
     transition: 0.4s;
+    
+    
+}
+
+.slide-price img{
+    border-radius: 20px;
+    transition: 0;
 }
 
 
-.achieve-desc-slider:hover{
+.slide-price:hover{
     transform: scale(1.1);
     box-shadow: 2px 6px 5px black;
 }
@@ -474,6 +481,136 @@ SkillBar Start
 SkillBar End
 ----------------------*/
 
+
+
+
+
+/*----------------------
+Contacts Start
+----------------------*/
+#contact{
+    text-align: center;
+    background-color: #5e888a;
+    padding: 5%;
+   
+}
+
+
+.form-group input, textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+.form-group label{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+.contact-from{
+    border: 1px solid #ff02c0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: 0.4s;
+    background-color: #E8D3D2;
+    width: 100%;
+}
+
+
+.contact-from:hover{
+    box-shadow: 2px 6px 5px black;
+}
+
+
+
+.con-submit-button{
+    width: 200px !important;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+/*----------------------
+Contacts End
+----------------------*/
+
+
+
+/*----------------------
+Footer Start
+----------------------*/
+footer{
+    padding: 5%;
+    background-color: #056676;
+}
+
+footer i{
+    font-size: 25px;
+    color: white;
+    padding-top: 7px;
+    
+   
+    
+}
+
+footer a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+footer a:nth-child(1){
+    background-color: orangered;
+}
+
+footer a:nth-child(2){
+    background-color: green;
+}
+
+footer a:nth-child(3){
+    background-color: rgba(243, 49, 49, 0.685);
+}
+
+footer a:nth-child(4){
+    background-color: blue;
+}
+
+footer a:nth-child(5){
+    background-color: red;
+}
+
+footer a:nth-child(6){
+    background-color: pink;
+}
+
+
+footer a:nth-child(8){
+    background-color: black;
+}
+
+footer a:nth-child(9){
+    background-color: rgb(47, 114, 214);
+}
+
+
+footer a:hover{
+    background-color: gray;
+}
+/*----------------------
+Footer End
+----------------------*/
 
 
 
