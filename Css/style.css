@@ -5,7 +5,7 @@ html{
 }
 
 body{
-
+    background-color: rgba(255, 192, 203, 0.616);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -277,8 +277,15 @@ About Me End
 /*----------------------
 Project Start
 ----------------------*/
+#projects{
+    padding: 2%;
+    background-color: #a3d2ca;
+}
 .single-project{
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
     transition: .5s;
+    border: 1px solid #ff02c0;
 }
 .single-project:hover{
     transform: scale(1.1);
@@ -286,10 +293,175 @@ Project Start
 }
 
 
+.single-project img{
+    border-top-left-radius: 20px;
+}
+
 
 /*----------------------
 Project End
 ----------------------*/
+
+
+
+
+/*----------------------
+SkillBar Start
+----------------------*/
+.SLIDER{
+    box-sizing: border-box;
+}
+
+.skill-container{
+    
+    border: 1px solid #ff02c0;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 20px 0;
+    transition: 0.4s;
+
+    width: 100%;
+}
+
+.skill-container:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.skill-container li{
+    list-style-type: none;
+    margin: 30px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: -40px;
+    
+    
+}
+
+
+.skill-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+
+    background-color: rgb(170, 167, 173);
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.skill-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+
+    background-color: #ff02c0;
+    width: 0;
+    height: 25px;
+    border-radius: 20px;
+
+
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+}
+
+.skill-container li.html::after{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 90%;
+        background-color: indigo;
+    }
+}
+
+
+
+
+.skill-container li.css::after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 70%;
+        background-color: green;
+    }
+}
+
+
+
+
+
+.skill-container li.js::after{
+    animation-name: js;
+}
+
+@keyframes js{
+    to{
+        width: 80%;
+        background-color: hotpink;
+    }
+}
+
+
+
+
+
+.skill-container li.python::after{
+    animation-name: python;
+}
+
+@keyframes python{
+    to{
+        width: 95%;
+        background-color: chartreuse;
+    }
+}
+
+
+
+.skill-container li.cpp::after{
+    animation-name: cpp;
+}
+
+@keyframes cpp{
+    to{
+        width: 60%;
+        background-color: blueviolet;
+    }
+}
+
+
+
+.skill-container li.bootstrap::after{
+    animation-name: bootstrap;
+}
+
+@keyframes bootstrap{
+    to{
+        width: 70%;
+        background-color: red;
+    }
+}
+/*----------------------
+SkillBar End
+----------------------*/
+
+
+
 
 
 
