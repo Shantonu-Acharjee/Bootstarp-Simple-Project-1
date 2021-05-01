@@ -554,7 +554,7 @@ footer{
 }
 
 footer i{
-    font-size: 25px;
+    font-size: 15px;
     color: white;
     padding-top: 7px;
     
@@ -564,8 +564,8 @@ footer i{
 
 footer a{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid white;
 }
